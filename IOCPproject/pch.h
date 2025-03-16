@@ -8,10 +8,10 @@
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "MSWsock.lib")
 
-
 // C++ 
 #include <iostream>
 
+#include <string>
 
 // STL 
 #include <vector>

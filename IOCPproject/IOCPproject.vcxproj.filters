@@ -16,12 +16,30 @@
     <ClCompile Include="IOCP.cpp">
       <Filter>Network</Filter>
     </ClCompile>
+    <ClCompile Include="OverEx.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="EndPoint.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetException.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header</Filter>
     </ClInclude>
     <ClInclude Include="IOCP.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="OverEx.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="EndPoint.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetException.h">
       <Filter>Network</Filter>
     </ClInclude>
   </ItemGroup>
