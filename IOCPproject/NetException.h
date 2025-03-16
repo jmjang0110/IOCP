@@ -10,7 +10,7 @@ public:
 	NetException(const std::string& info);
 	virtual ~NetException();
 
-	virtual const char* what() const override; // std::exception 에서 정의된 순수 가상함수 
+	virtual const char* what() const override; // std::exception 에서 정의된 순수 가상함수 오버라이드 
 		
 };
 
