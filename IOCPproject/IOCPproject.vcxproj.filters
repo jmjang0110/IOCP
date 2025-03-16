@@ -16,7 +16,7 @@
     <ClCompile Include="IOCP.cpp">
       <Filter>Network</Filter>
     </ClCompile>
-    <ClCompile Include="OverEx.cpp">
+    <ClCompile Include="WSAOverlappedEx.cpp">
       <Filter>Network</Filter>
     </ClCompile>
     <ClCompile Include="EndPoint.cpp">
@@ -33,7 +33,7 @@
     <ClInclude Include="IOCP.h">
       <Filter>Network</Filter>
     </ClInclude>
-    <ClInclude Include="OverEx.h">
+    <ClInclude Include="WSAOverlappedEx.h">
       <Filter>Network</Filter>
     </ClInclude>
     <ClInclude Include="EndPoint.h">

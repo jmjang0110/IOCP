@@ -10,7 +10,7 @@ namespace IO {
 	};
 }
 
-class OverEx : public WSAOVERLAPPED
+class WSAOVERLAPPEDEX : public WSAOVERLAPPED
 {
 	
 

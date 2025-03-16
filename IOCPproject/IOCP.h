@@ -13,7 +13,7 @@
 class OverlappedEx;
 
 struct CompletionInfo {
-	WSAOVERLAPPED* overEx;
+	WSAOVERLAPPED*  overEx;
 	LONG64			key;
 	DWORD			bytes;
 	BOOL			success;
@@ -34,7 +34,7 @@ public:
 	virtual bool Close();
 
 public:
-	// GetQueuedCompletionStatus
+	// GetQueuedCompletionStatus : 완료된 I/O 작업을 CompletionInfo에 저장
 	void GQCS(CompletionInfo& info, UINT32 msTimeout);
 };
 

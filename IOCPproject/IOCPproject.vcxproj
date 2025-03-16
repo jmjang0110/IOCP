@@ -139,7 +139,7 @@
     <ClCompile Include="IOCP.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NetException.cpp" />
-    <ClCompile Include="OverEx.cpp" />
+    <ClCompile Include="WSAOverlappedEx.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pch.h</PrecompiledHeaderFile>
@@ -155,7 +155,7 @@
     <ClInclude Include="EndPoint.h" />
     <ClInclude Include="IOCP.h" />
     <ClInclude Include="NetException.h" />
-    <ClInclude Include="OverEx.h" />
+    <ClInclude Include="WSAOverlappedEx.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
